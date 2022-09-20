@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registro bh</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="box">
+        <div class="inner-box">
+          <div class="forms-wrap">
+            <form action="RespIndex.jsp" class="sign-in-form">
+              <div class="logo">
+                <h4>BH eventos</h4>
+              </div>
+
+              <div class="heading">
+                <h2>Bem vindo de volta</h2>
+                <h6>Não possui uma conta?</h6>
+                <a href="#" class="toggle">Registre-se</a>
+              </div>
+
+              <div class="actual-form">
+                <div class="input-wrap">
+                  <input type="text" class="input-field" name = "email" required/>
+                  <label>Email</label>
+                </div>
+
+                <div class="input-wrap">
+                  <input type="password" class="input-field" id = 'senha' name = 'senha' required />
+                  <label>Senha</label>
+                </div>
+
+                <input type="submit" value="Entrar" class="sign-btn" />
+
+                <p class="text">
+                  Esqueceu sua senha?
+                  <a href="formNomeCpf.html">clique aqui</a> 
+                </p>
+              </div>
+            </form>
+
+            <form action="CadastraCliente.jsp" class="sign-up-form">
+              <div class="logo">
+                <h4>BH eventos</h4>
+              </div>
+
+              <div class="heading">
+                <h2>Junte-se a nós</h2>
+                <h6>Ja possui uma conta?</h6>
+                <a href="#" class="toggle">Entre</a>
+              </div>
+
+              <div class="actual-form">
+                <div class="input-wrap">
+                  <input type="text" id = "nome" name = "nome" class="input-field" required/>
+                  <label>Nome</label>
+                </div>
+
+                <div class='input-wrap'>
+                    <input type='number' class='input-field' id = 'cpf' name = 'cpf' placeholder=" apenas numeros" required />
+                    <label>C.P.F</label>
+                </div>
+                  
+                <div class='input-wrap'>
+                    <input type="email" class='input-field' id = 'email' name = 'email' required />
+                    <label>Email</label>
+                </div>
+                  
+                <div class='input-wrap'>
+                    <input type="number" class='input-field' id = 'contato' name = 'contato' required />
+                    <label>Contato</label>
+                </div>
+                  
+               <div class='input-wrap'>
+                    <input class='input-field' id = 'forma_de_pagamento' name = 'forma_de_pagamento' required />
+                    <label>Forma De Pagamento</label>
+                </div>
+              
+                <div class='input-wrap'>
+                    <input type='password' class='input-field' id = 'senha' name = 'senha' required />
+                    <label>Senha</label>
+                </div>
+              
+                <input type="submit" value="Registre-se" class="sign-btn" />
+
+              </div>
+            </form>
+          </div>
+
+         <div class="carousel">
+
+            <div class="text-slider">
+              <div class="text-wrap">
+                <div class="text-group">
+                  <h2>Venha realizar os</h2>
+                  <h2>seus eventos com</h2>
+                  <h2>qualidade e confiança</h2>
+                  <h2>que apenas a BH eventos</h2>
+                  <h2>oferece</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
